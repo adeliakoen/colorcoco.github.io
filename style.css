@@ -1,0 +1,131 @@
+nav ul {list-style-type:none;
+}
+
+nav ul li {display: inline-block;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body { background-color: white;
+  background-image: url('bgjj.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #B1D3ED;
+  border-bottom: 50px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  color: #191919;
+  font-weight: 750px;
+  padding: 0px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+
+nav ul li a:hover {
+  color: skyblue;
+  border-bottom: 1px solid skyblue;
+  margin-right: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+h1 {color: #191919;
+}
+
+h2 {font-size: 40px;
+  font-family: garamond;
+  margin-left: 50px;
+  margin-top: 50px;
+  text-align: center;
+  color: brown;
+  font-weight: 700;
+}
+
+h3 {font-size: 40px;
+  font-family: garamond;
+  margin-top: 25px;
+  margin-left: 50px;
+  text-align: center;
+  color: brown;
+}
+
+h4 {text-align: center;
+  font-family: garamond;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: brown;
+  font-weight: bold;
+}
+
+p {font-size: 25px;
+  font-family: 'calibri';
+  margin-top: 25px;
+  margin-left: 60px;
+  text-align: center;
+  color: rgb(53, 2, 2);
+  font-weight: bold;
+}
+
+#par {font-size: 25px;
+  font-family: 'calibri';
+  margin-left: 50px;
+  text-align: left;
+  color: rgb(53, 2, 2);
+  font-weight: bold;
+}
+
+#par1 {
+  align-items: left;
+  margin-top: 20px;
+  margin-bottom: 50px; 
+  font-weight: bold;
+}
+
+#par2 {
+  text-align:  center;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  font-family: bold;
+}
+
+#par3 {font-size: 25px;
+  font-family: 'calibri';
+  margin-top: 25px;
+  margin-left: 60px;
+  text-align: center;
+  color: rgb(53, 2, 2);
+  font-weight: bold;
+}
+
+
+img {display: block;
+    margin-left: auto;
+   margin-right: auto; 
+   width: 700px;
+}
