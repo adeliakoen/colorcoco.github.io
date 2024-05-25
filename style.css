@@ -13,12 +13,13 @@ html, body {
   box-sizing: border-box;
 }
 
-body { background-color: white;
+body { 
+  background-color: white;
   background-image: url('bgjj.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
@@ -43,12 +44,11 @@ nav ul li a {
   text-decoration: none;
   font-family: "Segoe UI", sans-serif;
   color: #191919;
-  font-weight: 750px;
+  font-weight: bold;
   padding: 0 10px;
   transition: all;
   transition-duration: 300ms;
   border-bottom: 1px solid rgba(255, 68, 0, 0);
-  padding: 0 10px;
 }
 
 nav ul li a:hover {
@@ -59,10 +59,13 @@ nav ul li a:hover {
 }
 
 
-h1 {color: #191919;
+h1 {
+  color: #191919;
+  font-size: 2em;
 }
 
-h2 {font-size: 40px;
+h2 {
+  font-size: 40px;
   font-family: garamond;
   margin-left: 5%;
   margin-top: 5%;
@@ -71,7 +74,8 @@ h2 {font-size: 40px;
   font-weight: 700;
 }
 
-h3 {font-size: 40px;
+h3 {
+  font-size: 40px;
   font-family: garamond;
   margin-top: 2,5%;
   margin-left: 5%;
@@ -79,16 +83,19 @@ h3 {font-size: 40px;
   color: brown;
 }
 
-h4 {text-align: center;
+h4 {
+  text-align: center;
   font-family: garamond;
   margin-top: 8%;
   margin-bottom: 5%;
   font-size: 35px;
   color: brown;
   font-weight: bold;
+  font-size:50px;
 }
 
-p {font-size: 25px;
+p {
+  font-size: 25px;
   font-family: 'calibri';
   margin-top: 2,5%;
   margin-left: 6%;
@@ -97,20 +104,14 @@ p {font-size: 25px;
   font-weight: bold;
 }
 
-#par {font-size: 25px;
+#par1 {
+  font-size: 25px;
   font-family: 'calibri';
-  margin-left: 5%;
-  text-align: left;
+  margin-top: 2,5%;
+  margin-left: 6%;
+  text-align: center;
   color: rgb(53, 2, 2);
   font-weight: bold;
-}
-
-#par1 {
-  align-items: left;
-  margin-top: 2%;
-  margin-bottom: 5%; 
-  font-weight: bold;
-  font-size: 25px;
 }
 
 #par2 {
@@ -120,18 +121,20 @@ p {font-size: 25px;
   font-family: bold;
 }
 
-#par3 {font-size: 25px;
+
+ol li {
+  font-size: 25px;
   font-family: 'calibri';
   margin-top: 2,5%;
   margin-left: 6%;
-  text-align: center;
+  text-align: left;
   color: rgb(53, 2, 2);
   font-weight: bold;
 }
 
-
-img {display: block;
-    margin-left: auto;
-   margin-right: auto; 
-   width: 75%;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 75%;
 }
